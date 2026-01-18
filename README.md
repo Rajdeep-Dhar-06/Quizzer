@@ -1,16 +1,52 @@
-# React + Vite
+# 🧠 React Quiz App — React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an interactive **quiz application** built using **React** and **Vite**.  
+It allows users to answer multiple-choice questions under a **time limit**, earn **points**, and track their progress throughout the quiz.
 
-Currently, two official plugins are available:
+The project focuses on practicing core React concepts such as **state management**, **derived state**, **effects**, and **controlled UI flow**, while consuming data from a **fake REST API**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Multiple-choice quiz questions
+- Timer-based quiz flow
+- Dynamic points & scoring system
+- Progress indicator for questions
+- Final score summary at the end of the quiz
+- Data loaded from a fake REST API
+- Clean, component-based architecture
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+- React (Hooks)
+- Vite
+- JavaScript (ES Modules)
+- JSON Server
+- CSS
+
+---
+
+## 📦 Getting Started
+
+### Install dependencies
+```bash
+npm install
+```
+### Start the API server
+```bash
+npm run server
+```
+### The server will run at:
+```bash
+http://localhost:8000/questions
+```
+### Run development server
+```bash
+npm run dev
+```
+### The app will run at:
+```bash
+http://localhost:5173
