@@ -1,4 +1,4 @@
-# 🧠 React Quiz App — React + Vite
+# 🧠 Quizzer — React + Vite
 
 This project is an interactive **quiz application** built using **React** and **Vite**.  
 It allows users to answer multiple-choice questions under a **time limit**, earn **points**, and track their progress throughout the quiz.
