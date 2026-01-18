@@ -3,7 +3,7 @@
 This project is an interactive **quiz application** built using **React** and **Vite**.  
 It allows users to answer multiple-choice questions under a **time limit**, earn **points**, and track their progress throughout the quiz.
 
-The project focuses on practicing core React concepts such as **state management**, **derived state**, **effects**, and **controlled UI flow**, while consuming data from a **fake REST API**.
+The project focuses on practicing core React concepts such as **state management**, **derived state**, **effects**, and **controlled UI flow**.
 
 ---
 
@@ -14,7 +14,6 @@ The project focuses on practicing core React concepts such as **state management
 - Dynamic points & scoring system
 - Progress indicator for questions
 - Final score summary at the end of the quiz
-- Data loaded from a fake REST API
 - Clean, component-based architecture
 
 ---
